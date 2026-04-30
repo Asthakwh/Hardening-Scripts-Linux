@@ -1,0 +1,21 @@
+Put every file in same path 
+
+File1 = canonical_ubuntu_24.04_lts 
+File2 = run_stigs_checks.sh 
+File3  = stig_results.txt 
+  
+Step1 : Copy JSON file in paths canonical_ubuntu_24.04_lts 
+
+Step2: make a new file in same path  
+
+sudo nano run_stigs_checks.sh 
+  
+Step3 : paste this in nano file and save 
+
+Step4 : sudo chmod +x run_stigs_checks.sh 
+  
+Step5 : sudo /home/nik/run_stigs_checks.sh | tee stig_results.txt 
+  
+Step6 : It will create file with stig_results.txt 
+  
+stig_results.txt = have all details
